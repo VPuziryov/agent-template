@@ -42,3 +42,17 @@ window.addEventListener('DOMContentLoaded', () => {
   switchLanguage(CURRENT_LANGUAGE);
 
 });
+document
+  .querySelectorAll('[data-lang]')
+  .forEach((button) => {
+
+    button.addEventListener('click', () => {
+
+      const selectedLanguage =
+        button.getAttribute('data-lang');
+
+      switchLanguage(selectedLanguage);
+
+    });
+
+});

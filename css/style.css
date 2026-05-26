@@ -75,3 +75,42 @@ textarea {
   font-size: 15px;
 
 }
+.language-switcher {
+
+  position: fixed;
+
+  top: 20px;
+
+  right: 20px;
+
+  z-index: 1000;
+
+  display: flex;
+
+  gap: 8px;
+
+}
+
+.language-switcher button {
+
+  background: rgba(255,255,255,0.08);
+
+  color: white;
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  padding: 6px 10px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+}
+
+.language-switcher button:hover {
+
+  background: rgba(255,255,255,0.16);
+
+}
