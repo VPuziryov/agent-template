@@ -20,6 +20,8 @@ const PRODUCT = {
 
   gpt: "",
 
+  metaPixel: "",
+
   primaryColor: "#0B3558",
 
   secondaryColor: "#0F5FA8",
